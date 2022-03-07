@@ -1,0 +1,17 @@
+.header{
+  padding: 25px 0;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu{
+    display: flex;
+    column-gap: 24px;
+  }
+  &__link{
+    @include text(13px, 15px, #000);
+    letter-spacing: 1.4px;
+    transition: .5s;
+  }
+}

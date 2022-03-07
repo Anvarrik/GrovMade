@@ -1,0 +1,358 @@
+@media (max-width: 1024px) {
+  .header {
+    padding: 25px 15px;
+  }
+  .design__img {
+    width: 100%;
+    padding: 15px;
+  }
+  .footer__info__block {
+    padding: 77px;
+  }
+}
+@media (max-width: 800px) {
+  .design__link {
+    margin-bottom: 41px;
+  }
+  .way__subtitle {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .work__subtitle {
+    font-size: 14px;
+    margin: 18px 0 67px;
+  }
+  .work__gallery__img img {
+    padding: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .footer__end__menu__title {
+    padding-right: 15px;
+  }
+  .first__screen {
+    padding: 188px 0 175px;
+  }
+  .design__link {
+    margin-bottom: 35px;
+  }
+  .swiper-slide img {
+    width: 80%;
+  }
+  .office__title {
+    font-size: 61px;
+  }
+  .way__img {
+    width: 90%;
+  }
+}
+@media (max-width: 620px) {
+
+  .design__subtitle {
+    font-size: 12px;
+  }
+  .swiper-slide img {
+    width: 70%;
+  }
+  .office__title {
+    font-size: 50px;
+  }
+  .office__subtitle {
+    font-size: 12px;
+  }
+  .way__subtitle {
+    font-size: 17px;
+    padding: 10px;
+  }
+  .footer__end__menu {
+    column-gap: 33px;
+  }
+  .footer__end__menu__title {
+    padding-right: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .design {
+    padding: 65px 0 130px;
+  }
+  .design__col__title {
+    margin: 40px 0 23px;
+  }
+  .products__card__title {
+    font-size: 8px;
+    line-height: 19px;
+  }
+  .office__title {
+    font-size: 40px;
+  }
+  .office__subtitle {
+    font-size: 9px;
+  }
+  .office__link {
+    font-size: 10px;
+  }
+  .way__subtitle {
+    font-size: 11px;
+  }
+  .work__title {
+    font-size: 30px;
+  }
+  .work__subtitle {
+    font-size: 12px;
+    margin: 18px 0 57px;
+  }
+  .story__content__subtitle {
+    font-size: 12px;
+  }
+.footer__info__block__second__text {
+  font-size: 7px;
+}
+  .footer__input {
+    width: 270px;
+  }
+  .footer__info__block__items {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .footer__end__menu__items {
+    font-size: 10px;
+    padding: 5px
+  }
+  .footer__end__menu {
+    column-gap: 26px;
+    padding: 10px;
+  }
+}
+@media (max-width: 430px) {
+  .first__screen__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+
+  .burger{
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+
+
+&__line{
+  width: 40px;
+  height: 4px;
+  background-color:red;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+&::before{
+  content: '';
+  width: 40px;
+  height: 5px;
+  background-color:red;
+  position: absolute;
+  top: 10px;
+  transition: .5s;
+
+}
+  &::after{
+    content: '';
+    width: 40px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    top: -10px;
+    transition: .5s;
+  }
+}
+  }
+  .burger.active{
+
+    .burger__line{
+      background-color: transparent;
+      &::before{
+        transform: rotate(45deg);
+        top: 0;
+        transition: .5s;
+      }
+      &::after{
+        transform: rotate(-45deg);
+        top: 0;
+        transition: .5s;
+      }
+    }
+
+  }
+
+  .header__nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: -300px;
+transition: 1s;
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    background-color: darkmagenta;
+    flex-direction: column;
+    .header__menu{
+
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center;
+
+    }
+    .header__title{
+      position: absolute;
+      top: 100px;
+    }
+    row-gap: 20px;
+  }
+  .header__nav.active{
+    display: flex;
+    right: 0;
+    z-index: 2;
+
+transition: 1s;
+  }
+  .design__title {
+    font-size: 40px;
+  }
+  .design__subtitle {
+    font-size: 11px;
+    margin: 19px 0 26px;
+  }
+  .design__col__title {
+    margin: 34px 0 23px;
+    font-size: 24px;
+  }
+  .design__col__link {
+    font-size: 10px;
+  }
+  .office__title {
+    font-size: 30px;
+  }
+  .office__subtitle {
+    font-size: 8px;
+  }
+  .way__subtitle {
+    font-size: 7px;
+  }
+  .work__subtitle {
+    font-size: 10px;
+    margin: 18px 0 44px;
+  }
+  .story__link {
+    padding: 44px 0 60px;
+  }
+  .footer__end__menu__items {
+    font-size: 8px;
+    padding: 2px;
+  }
+  .footer__info__block__second__text {
+    font-size: 7px;
+    margin: 23px 0 69px;
+  }
+  .footer__info__right__block {
+    width: 75px;
+    height: 75px;
+
+  }
+
+
+}
+@media (max-width: 400px) {
+  .first__screen__title {
+    font-size: 24px;
+  }
+  .office__subtitle {
+    font-size: 7px;
+  }
+  .design__title {
+    font-size: 33px;
+  }
+  .design__subtitle {
+    font-size: 6px;
+    margin: 16px 0 19px;
+  }
+  .design__img {
+    width: 80%;
+    padding: 15px;
+  }
+  .design__col__title {
+    margin: 25px 0 23px;
+    font-size: 15px;
+  }
+  .products__title {
+    font-size: 28px;
+  }
+  .products__subtitle {
+    font-size: 13px;
+    margin: 16px 0 36px;
+  }
+  .products__card__price {
+    font-size: 8px;
+  }
+  .office__title {
+    font-size: 26px;
+  }
+  .way__title {
+    font-size: 31px;
+    line-height: 32px;
+  }
+  .way__subtitle {
+    padding: 15px;
+  }
+  .work__title {
+    font-size: 26px;
+  }
+  .work__subtitle {
+    font-size: 10px;
+    margin: 17px 0 36px;
+  }
+  .story__title {
+    font-size: 27px;
+  }
+  .story__content__title {
+    font-size: 39px;
+  }
+  .story__content__subtitle {
+    font-size: 7px;
+  }
+  .footer__info__right__block {
+    width: 62px;
+    height: 62px;
+    top: -15px;
+  }
+  .footer__info__block__second__title {
+    font-size: 11px;
+    line-height: 27px;
+  }
+  .footer__info__block {
+    padding: 44px;
+  }
+  .footer__info__block__items {
+    font-size: 14px;
+  }
+  .footer__info__block__second__text {
+    font-size: 6px;
+    margin: 23px -10px 65px;
+  }
+  .footer__info__right__block__text {
+    font-size: 9px;
+  }
+  .footer__end__menu__items {
+    font-size: 6px;
+    padding: 8px;
+  }
+  .footer__end__menu__title {
+    font-size: 8px;
+  }
+  .footer__input {
+    width: 155px;
+  }
+}

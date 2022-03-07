@@ -1,0 +1,18 @@
+.first__screen{
+background: url("../images/Rectangle.png")center/cover no-repeat;
+  padding: 188px 0 197px;
+  text-align: center;
+  &__title{
+    @include text(43px, 46px, #fff);
+  }
+  &__subtitle{
+    @include text(15px, 18px, #fff);
+    letter-spacing: 0.8px;
+    margin: 12px 0 28px;
+  }
+  &__link{
+    @include text(13px, 15px, #fff);
+    letter-spacing: 1.4px;
+    transition: .5s;
+  }
+}

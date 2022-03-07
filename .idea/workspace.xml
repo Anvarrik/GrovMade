@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd9a827e-fc31-44c1-a08b-c730addc78d2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="21xrqIn4n0ToXmgedEZDnGNgBPu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\work-images" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\products" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\design" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\header" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\story" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src\images\work-images" />
+      <recent name="C:\Users\wwwww\Desktop\GroveMade\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd9a827e-fc31-44c1-a08b-c730addc78d2" name="Default Changelist" comment="" />
+      <created>1638893787283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638893787283</updated>
+      <workItem from="1638893831904" duration="8036000" />
+      <workItem from="1638947062372" duration="560000" />
+      <workItem from="1638955103669" duration="3766000" />
+      <workItem from="1638962492086" duration="11035000" />
+      <workItem from="1638980863834" duration="585000" />
+      <workItem from="1638981515888" duration="24000" />
+      <workItem from="1639065433391" duration="6647000" />
+      <workItem from="1639072135015" duration="1481000" />
+      <workItem from="1639146286252" duration="10595000" />
+      <workItem from="1646676564658" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638968941225">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="623" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1638968941225" />
+    <state x="531" y="227" key="run.anything.popup" timestamp="1639159157521">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="531" y="227" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1639159157521" />
+    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1639152598140">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="539" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1639152598140" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+.office{
+  padding: 174px 0 185px;
+  background: url("../images/office.png")center/cover no-repeat;
+  text-align: center;
+  height: 504px;
+  &__title{
+    @include text(66px, 70px, #fff);
+  }
+  &__subtitle{
+    @include text(14px, 16px, #fff);
+    letter-spacing: 0.8px;
+    margin: 14px 0 30px;
+  }
+  &__link{
+    @include text(13px, 15px, #fff);
+    letter-spacing: 1.4px;
+  }
+}

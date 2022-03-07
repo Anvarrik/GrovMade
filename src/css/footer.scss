@@ -1,0 +1,94 @@
+.footer{
+
+  &__input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    width: 320px;
+
+  }
+  &__info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 84px;
+
+&__block{
+display: flex;
+  column-gap: 35px;
+  padding-top: 77px;
+  width: 50%;
+
+  &__col{
+display: flex;
+
+    &__menu{
+      display: flex;
+      flex-direction: column;
+      row-gap: 16px;
+    }
+  }
+  &__second{
+    &__title{
+      @include text(22px,24px, #000);
+    }
+    &__text{
+      @include text(14px,16px,#A0A0A0);
+      letter-spacing: 0.8px;
+      margin: 23px 0 91px;
+      position: relative;
+
+    }
+  }
+  &__items{
+    @include text(22px,24px, #000);
+  }
+
+}
+
+
+&__right{
+  width: 50%;
+  position: relative;
+
+
+
+  &__block{
+    width: 82px;
+    height: 82px;
+    background-color: black;
+    //padding: 22px 30px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    &__text{
+      font-size: 13px;
+      letter-spacing: 1.4px;
+      color: #FFFFFF;
+
+
+    }
+  }
+}
+  }
+
+  &__end{
+    &__menu{
+      display: flex;
+      column-gap: 39px;
+      justify-content: flex-end;
+      &__items{
+        @include text(13px, 15px, #707A7F);
+        letter-spacing: 0.8px;
+      }
+      &__title{
+        @include text(13px, 15px,#000);
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+}
+

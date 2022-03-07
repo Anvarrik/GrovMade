@@ -1,0 +1,42 @@
+.design{
+  padding: 80px 0 130px;
+
+  &__title{
+    @include text(43px, 58px, #000);
+    text-align: center;
+  }
+  &__subtitle{
+    @include text(14px, 24px, #A0A0A0);
+    letter-spacing: 0.8px;
+    margin: 23px 0 26px;
+    text-align: center;
+  }
+  &__link{
+    @include text(13px, 21px, #000);
+    display: block;
+    letter-spacing: 1.4px;
+    transition: .5s;
+    text-align: center;
+    margin-bottom: 81px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 25px;
+  }
+  &__col{
+    width: 50%;
+    text-align: center;
+    &__title{
+      @include text(27px, 30px, #000);
+      margin: 48px 0 23px;
+    }
+    &__link{
+      @include text(13px, 15px, #000);
+      letter-spacing: 1.4px;
+    }
+  }
+  &__img{
+    width: 100%;
+  }
+
+}

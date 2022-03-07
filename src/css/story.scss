@@ -1,0 +1,30 @@
+.story{
+  padding-bottom: 39px;
+  text-align: center;
+  &__title{
+    @include text(34px, 36px, #000);
+  }
+  &__link{
+    display: inline-block;
+    @include text(13px, 21px, #000);
+    letter-spacing: 1.4px;
+    padding: 44px 0 121px;
+    transition: .5s;
+    &:hover{
+      color: blue;
+      transition: .5s;
+    }
+  }
+  &__content{
+    background: url("../images/story/story.png")center/cover no-repeat;
+    padding: 120px 0 ;
+    &__title{
+      @include text(43px, 58px, #fff);
+      margin: 24px 0;
+    }
+    &__subtitle{
+      @include text(14px, 24px, #fff);
+      letter-spacing: 0.8px;
+    }
+  }
+}

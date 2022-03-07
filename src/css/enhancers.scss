@@ -1,0 +1,7 @@
+
+@mixin text ($fz, $lh, $col){
+  font-size: $fz;
+  line-height: $lh;
+  color: $col;
+
+}

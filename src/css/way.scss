@@ -1,0 +1,19 @@
+.way{
+  padding: 116px 0 38px;
+  text-align: center;
+  &__title{
+    @include text(34px, 36px, #000);
+  }
+  &__subtitle{
+    @include text(16px, 24px, #A0A0A0);
+    letter-spacing: 0.8px;
+    margin: 23px 0;
+
+
+  }
+  &__img{
+    width: 100%;
+    max-width: 1052px;
+  }
+
+}

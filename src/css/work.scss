@@ -1,0 +1,28 @@
+.work{
+ padding-bottom: 124px;
+  &__title{
+    @include text(34px, 36px,#000);
+    text-align: center;
+  }
+  &__subtitle{
+    @include text(16px, 24px, #A0A0A0);
+    text-align: center;
+    letter-spacing: 0.8px;
+    margin: 23px 0 79px;
+  }
+
+&__gallery{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  &__img{
+    width:  calc(16.6666% - 20.83333px);
+    img{
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+}
+
+
+  }
